@@ -9,6 +9,21 @@ body {
   line-height: 1.5;
 }
 
+.container{
+  display: grid;
+  grid-template-columns: 25% 75%;
+
+}
+
+/* this is for nav-bar stuff migh change this later */
+h3 {
+  list-style-type: none;
+  font-size: 30px;
+  display: inline;
+  position: relative;
+  left: 1400px;
+}
+
 h1,
 h2,
 h3,
@@ -48,8 +63,15 @@ p {
     "secondaryProduct"; 
   }
   #categoryGrid {
-    /* grid-template-rows: ; */
-    /* grid-template-columns: ; */
+    /* grid-template-rows: 25px 75px;  */
+     /* grid-template-columns: 25px 75px; */
     /* grid-template-areas:; */
   }
 }
+
+
+.hero-banner{
+
+
+}
+
